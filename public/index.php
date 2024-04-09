@@ -2,7 +2,7 @@
 
 require '../vendor/autoload.php';
 
-$controller = 'homepage';
+$controller = 'user/list';
 
 const TEMPLATES_PATH = __DIR__ . '/../app/templates';
 

@@ -5,4 +5,4 @@
 require_once '../app/services/templates.php';
 
 //require $templatePath . '/homepage.php';
-renderTemplate('/homepage.php');
+renderTemplate('homepage.php');
