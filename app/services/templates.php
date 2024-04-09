@@ -1,6 +1,6 @@
 <?php
 
-function renderTemplate(string $template, array $data = []) : void
+function renderTemplate(string $template, array $data = []): void
 {
     $layout = 'base.php';
 
