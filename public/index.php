@@ -18,6 +18,7 @@ $page = $_GET['page'] ?? 'homepage';
 $routes = [
     'homepage' => 'homepage',
     'users' => 'user/list',
+    'login' => 'security/login',
 ];
 
 if (!isset($routes[$page])) {
