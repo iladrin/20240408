@@ -1,23 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
-    <!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
-    <title>Document</title>
-</head>
-<body class="bg-stone-200">
-<nav class="bg-emerald-800 h-[150px] flex flex-col justify-center p-5 shadow-md">
-    <a class="text-lg text-white" href="#">
-        <!--      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">-->
-        MuuuvieNinNin (￣人￣)
-    </a>
-</nav>
-
 <main class="w-1/2 mx-auto my-20 bg-emerald-800 text-white min-h-[300px] p-10">
     <h1 class="pb-5 underline">Utilisateurs</h1>
       <ul>
@@ -26,6 +6,3 @@
         <?php endforeach; ?>
       </ul>
 </main>
-
-</body>
-</html>
