@@ -19,6 +19,7 @@ $routes = [
     'homepage' => 'homepage',
     'users' => 'user/list',
     'login' => 'security/login',
+    'movies' => 'movie/list',
 ];
 
 if (!isset($routes[$page])) {
