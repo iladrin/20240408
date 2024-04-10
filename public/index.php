@@ -2,6 +2,8 @@
 
 require '../vendor/autoload.php';
 
+require '../app/services/logs.php';
+
 const TEMPLATES_PATH = __DIR__ . '/../app/templates';
 
 //////////
