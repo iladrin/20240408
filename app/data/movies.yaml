@@ -1,0 +1,8 @@
+movies:
+  - id: 1
+    title: "Harry Potter"
+    synopsis: "Waow Harry Potter"
+
+  - id: 2
+    title: "Le Cinquième Élément"
+    synopsis: "Waow Le cinquième élément"
