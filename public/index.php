@@ -4,8 +4,14 @@ require '../vendor/autoload.php';
 
 require '../app/services/logs.php';
 require '../app/services/security.php';
+require '../app/services/database.php';
 
 session_start();
+
+use Symfony\Component\Dotenv\Dotenv;
+
+$dotenv = new Dotenv();
+$dotenv->load('../.env', '../.env.local');
 
 const TEMPLATES_PATH = __DIR__ . '/../app/templates';
 
