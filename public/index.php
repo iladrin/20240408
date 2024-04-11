@@ -3,6 +3,9 @@
 require '../vendor/autoload.php';
 
 require '../app/services/logs.php';
+require '../app/services/security.php';
+
+session_start();
 
 const TEMPLATES_PATH = __DIR__ . '/../app/templates';
 
@@ -21,6 +24,7 @@ $routes = [
     'homepage' => 'homepage',
     'users' => 'user/list',
     'login' => 'security/login',
+    'logout' => 'security/logout',
     'movies' => 'movie/list',
 ];
 

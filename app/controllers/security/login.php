@@ -15,7 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'roles' => $user['roles'],
             ];
 
-            header('location: ?page=homepage');
+            $location = $_SESSION['initial_page'] ?? 'homepage';
+            header("location: ?page=$location");
         }
     }
 
