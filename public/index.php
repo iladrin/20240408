@@ -32,6 +32,7 @@ $routes = [
     'login' => 'security/login',
     'logout' => 'security/logout',
     'movies' => 'movie/list',
+    'movie' => 'movie/show',
 ];
 
 if (!isset($routes[$page])) {
